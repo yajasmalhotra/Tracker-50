@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Flight Search
+{% endblock %}
+
+{% block main %}
+
+<H2>Search</H2>
+
+<br>
+<br>
+
+    <form action="/search" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-group" name="airline" placeholder="Airline" type="text" required>
+            <input autocomplete="off" autofocus class="form-group" name="flight_number" placeholder="Flight Number" type="text" required>
+            <input autocomplete="off" autofocus class="form-group" name="departure_date" placeholder="Enter Date (YYYY-MM-DD)" type="date" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+{% endblock %}

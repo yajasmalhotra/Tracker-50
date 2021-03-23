@@ -1,0 +1,40 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+    color: white;
+}
+
+nav .navbar-custom
+{
+    color: white;
+    background-color: #272727;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+
+    color: white;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+
+    color: white;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
